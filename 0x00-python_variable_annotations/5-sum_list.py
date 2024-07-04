@@ -4,8 +4,10 @@
     Basic annotations for variables.
 '''
 
+from typing import List
 
-def sum_list(input_list: list[float]) -> float:
+
+def sum_list(input_list: List[float]) -> float:
     '''
         Returns sum of the floats in the list.
     '''
