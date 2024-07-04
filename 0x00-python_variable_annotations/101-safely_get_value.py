@@ -4,7 +4,10 @@
     Basic annotations for variables.
 '''
 
-from typing import Union, Tuple, Iterable, Sequence, List, Any, Mapping, T
+from typing import Union, Tuple, Iterable, Sequence, List, Any, Mapping
+
+
+T = TypeVar('T')
 
 
 def safely_get_value(dct: Mapping, key: Any, default = Union[T, None]) -> Union[Any, T]:
