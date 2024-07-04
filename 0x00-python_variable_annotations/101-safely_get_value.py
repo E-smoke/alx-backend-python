@@ -4,7 +4,7 @@
     Basic annotations for variables.
 '''
 
-from typing import Union, Tuple, Iterable, Sequence, List, Any, Mapping
+from typing import Union, Tuple, Iterable, Sequence, List, Any, Mapping, TypeVar
 
 
 T = TypeVar('T')
