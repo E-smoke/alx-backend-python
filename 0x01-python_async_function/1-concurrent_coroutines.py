@@ -5,10 +5,11 @@
 
 import asyncio
 import random
-from '0-basic_async_syntax.py' import wait_random
+from typing import List
+from 0-basic_async_syntax.py import wait_random
 
 
-async def wait_n(n, max_delay):
+async def wait_n(n: int, max_delay:int) -> List[float]:
     """wait_n"""
     task_array = []
     delays = []
